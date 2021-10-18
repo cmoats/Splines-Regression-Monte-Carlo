@@ -1,0 +1,107 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3079,         99]
+NotebookOptionsPosition[      2468,         78]
+NotebookOutlinePosition[      2824,         94]
+CellTagsIndexPosition[      2781,         91]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["#1 Knots:", "Text",
+ CellChangeTimes->{{3.80062047581877*^9, 
+  3.800620480079747*^9}},ExpressionUUID->"311d567e-0bbd-463d-9ef0-\
+4c9b6c35b7c7"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"tablet", "=", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"-", "1.0"}], ",", 
+      RowBox[{"-", ".9"}], ",", 
+      RowBox[{"-", ".1"}], ",", ".7", ",", "1.0"}], "}"}]}], ";"}], 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.800620411682914*^9, 3.8006204454502974`*^9}, 
+   3.824826959390827*^9},ExpressionUUID->"e2ba4298-43ed-4c94-ad4e-\
+a310733e891f"],
+
+Cell["#2 Data points:", "Text",
+ CellChangeTimes->{{3.800621698413143*^9, 3.80062171947876*^9}, {
+  3.80062222873743*^9, 
+  3.800622232987829*^9}},ExpressionUUID->"6062433e-57f5-4043-a2d8-\
+a3b074d11387"],
+
+Cell[BoxData[{
+ RowBox[{"tablex", "=", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{".2", "i"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"i", ",", "0", ",", "10"}], "}"}]}], 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"tabley", "=", 
+  RowBox[{"{", 
+   RowBox[{
+   "0.30567044593433224", ",", "0.4063255538032995", ",", 
+    "0.7529553318223484", ",", "0.29379611325014754", ",", 
+    "0.8583835668031451", ",", "0.7456943493696915", ",", 
+    "1.4463622238223015", ",", "1.887107733671204", ",", "2.0687411826279494",
+     ",", "2.8375245432939282", ",", "3.4993238876193593"}], 
+   "}"}]}], "\[IndentingNewLine]", 
+ RowBox[{"data", "=", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"tablex", "[", 
+       RowBox[{"[", "i", "]"}], "]"}], ",", 
+      RowBox[{"tabley", "[", 
+       RowBox[{"[", "i", "]"}], "]"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"i", ",", "11"}], "}"}]}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.800621724552792*^9, 3.800621892023471*^9}, {
+  3.800621948912335*^9, 
+  3.8006219650877237`*^9}},ExpressionUUID->"e0d1e1d2-79e9-4afe-8f42-\
+df1490436927"]
+},
+WindowSize->{808, 800},
+WindowMargins->{{316, Automatic}, {Automatic, 50}},
+FrontEndVersion->"11.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 27, \
+2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 150, 3, 30, "Text", "ExpressionUUID" -> \
+"311d567e-0bbd-463d-9ef0-4c9b6c35b7c7"],
+Cell[711, 25, 417, 12, 54, "Input", "ExpressionUUID" -> \
+"e2ba4298-43ed-4c94-ad4e-a310733e891f"],
+Cell[1131, 39, 204, 4, 30, "Text", "ExpressionUUID" -> \
+"6062433e-57f5-4043-a2d8-a3b074d11387"],
+Cell[1338, 45, 1126, 31, 117, "Input", "ExpressionUUID" -> \
+"e0d1e1d2-79e9-4afe-8f42-df1490436927"]
+}
+]
+*)
+
